@@ -30,21 +30,6 @@ function openAccordion(e) {
 	}
 }
 
-const back = document.querySelectorAll(".back")
-const items = document.querySelectorAll(".section-vision__item")
-const links = document.querySelectorAll(".menu__link")
-
-
-items.forEach(item => {
-	item.querySelector(".item__button").addEventListener("click", e => {
-		item.classList.add("item--active")
-	})
-	item.querySelector(".back").addEventListener("click", e => {
-		item.classList.remove("item--active")
-	})
-})
-
-
 const burger = document.getElementById('burger-menu')
 const page = document.getElementById('page')
 const body = document.body
