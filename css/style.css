@@ -2122,6 +2122,10 @@ body {
 	.page__mask::after {
 		display: none;
 	}
+
+	.page__mask-texture {
+		display: none;
+	}
 }
 
 @media (max-width: 400px) {
